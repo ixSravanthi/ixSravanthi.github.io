@@ -3,15 +3,130 @@
 <head>
   <title>Sravanthi Andra | Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
-<body>
-  <h1>Sravanthi Andra</h1>
-  <p>Computer Science | NLP | AI</p>
 
-  <h2>Projects</h2>
-  <ul>
-    <li>AI Folk Tale Chatbot</li>
-    <li>Sentiment Analysis System</li>
-  </ul>
+<body>
+  <header class="header">
+    <div class="logo"><h1>Sravanthi Andra</h1></div>
+    <nav class="nav">
+      <a href="#Education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#publications">Publications</a>
+      <a href="#achievments">Achievments</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section>
+    <div class="profile-container">
+      <img src="assets/passport photo.jpg" alt="Profile photo" class="profile-img">
+    </div>
+    <div class="text">
+      <h1>Sravanthi Andra</h1>
+    </div>
+    <div class="text">
+      <p>Computer Science | NLP | AI</p>
+    </div>
+  </section>
+
+  <section id="About me">
+    <h2>About me</h2>
+    <p>I am a Computer Science student with a strong interest in Artificial Intelligence and Natural Language Processing. I enjoy building intelligent systems that work with real-world text data, including chatbots, text classification models, and multilingual applications. My work focuses on combining machine learning techniques with clean, reproducible implementations. I am particularly interested in research-oriented projects and practical AI solutions.</p>
+  </section>
+
+  <section class="highlight">
+    <section id="Education">
+      <h2>Education</h2>
+      <p>Bachelor of Technology (B.Tech) in Computer Science and Engineering in Vardhaman college of Engineering (2023-2026)
+        <ul>
+          <li>Specialized coursework in Artificial Intelligence and Natural Language Processing</li>
+          <li>Experience with academic writing, LaTeX, and project-based learning</li>
+          <li>Actively involved in research-oriented projects and conference paper preparation</li>
+        </ul>
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <h4>EfficientNet and DWT-Driven Intelligent Skin Lesion Classification</h4>
+      <p>Developed an intelligent skin lesion classification system that combines Discrete Wavelet Transform (DWT) based feature decomposition with EfficientNet to improve classification performance on dermoscopic images. The approach leverages multi-resolution texture information from DWT.</p>
+      <div class="project-cards">
+        <div class="card">
+          <h4>Methodology</h4>
+          <ul>
+            <li>Applied Discrete Wavelet Transform (DWT) for multi-resolution feature extraction</li>
+            <li>Preprocessed dermoscopic images to enhance lesion features</li>
+            <li>Used EfficientNet as the backbone CNN for classification</li>
+            <li>Integrated frequency-domain and spatial features</li>
+            <li>Trained and evaluated the model on labeled skin lesion datasets</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h4>Technologies Used</h4>
+          <ul>
+            <li>Python</li>
+            <li>TensorFlow / Keras</li>
+            <li>EfficientNet</li>
+            <li>OpenCV</li>
+            <li>NumPy, Pandas</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <h4>IEEE Conference [2025]</h4>
+      <p>Proceedings of the International Conference on Computing, Communication, and Advanced Technologies (ICONAT)</p>
+      <ul>
+        <li>Presented a hybrid deep learning framework combining Discrete Wavelet Transform (DWT) with EfficientNet for automated skin lesion classification</li>
+        <li>Demonstrated improved performance through multi-resolution feature extraction and frequency-domain analysis</li>
+        <li>Applied the proposed approach to dermoscopic image datasets, highlighting its potential for clinical decision support</li>
+      </ul>
+    </section>
+
+    <section id="achievments">
+      <h2>Achievments</h2>
+        <ul>
+          <li>Published a research paper in an international conference</li>
+          <li>Developed and completed multiple AI and NLP-based projects</li>
+          <li>Participated in technical workshops and seminars</li>
+          <li>Demonstrated strong analytical and problem-solving skills</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="resume-actions">
+        <a href="assets/Resume.pdf" target="_blank" class="resume-btn view-btn">
+          View Resume
+        </a>
+
+        <a href="assets/Resume.pdf" download class="resume-btn download-btn">
+          Download Resume
+        </a>
+      </div>
+      <div class="social-links">
+        <a href="tel:+919059474009" aria-label="Call">
+          <i class="fa-solid fa-phone"></i>
+        </a>
+
+        <a href="mailto:andra.sravanthi@gmail.com" aria-label="Email">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/sravanthiandra" target="_blank" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+
+        <a href="https://github.com/SravanthiCODE" target="_blank" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+    </section>
+
+  </section>
 </body>
 </html>
