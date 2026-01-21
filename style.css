@@ -4,11 +4,18 @@ body {
   background: #ddebfb;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .header {
   position: fixed;
   top: 0;
-  width: 100%;
+  left: 0;
+  right: 0;
+
   height: 80px;
+  width: 100%;
 
   display: flex;
   justify-content: space-between;
@@ -19,6 +26,7 @@ body {
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   z-index: 1000;
 }
+
 
 .logo {
   font-size: 20px;
@@ -139,3 +147,9 @@ section h2 {
   color: #555;
 }
 
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+}
